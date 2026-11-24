@@ -1,0 +1,43 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智能家居"
+			}
+		},
+		{
+			"path": "pages/history/history",
+			"style": {
+				"navigationBarTitleText": "温湿度曲线"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "智能家居",
+		"navigationBarBackgroundColor": "#4a6cf7",
+		"backgroundColor": "#f6f8fc"
+	},
+	"tabBar": {
+		"color": "#9aa3b2",
+		"selectedColor": "#4a6cf7",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "设备控制",
+				"iconPath": "static/tab/home.png",
+				"selectedIconPath": "static/tab/home.png"
+			},
+			{
+				"pagePath": "pages/history/history",
+				"text": "历史曲线",
+				"iconPath": "static/tab/chart.png",
+				"selectedIconPath": "static/tab/chart.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
